@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <radialGradient id="blackBody" cx=".35" cy=".22" r=".95">
+      <stop offset="0" stop-color="#62676a"/>
+      <stop offset=".42" stop-color="#3c4144"/>
+      <stop offset=".82" stop-color="#22272a"/>
+      <stop offset="1" stop-color="#161a1c"/>
+    </radialGradient>
+    <linearGradient id="blackBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a0a5a4"/>
+      <stop offset="1" stop-color="#757b7b"/>
+    </linearGradient>
+    <linearGradient id="fuseGlow" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd855"/>
+      <stop offset="1" stop-color="#ff7a1c"/>
+    </linearGradient>
+    <linearGradient id="beakBlack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc75b"/>
+      <stop offset="1" stop-color="#ee861b"/>
+    </linearGradient>
+    <linearGradient id="eyeWhiteB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset="1" stop-color="#eee6d7"/>
+    </linearGradient>
+    <radialGradient id="spark">
+      <stop offset="0" stop-color="#fff9c6"/>
+      <stop offset=".4" stop-color="#ffd14a"/>
+      <stop offset="1" stop-color="#ff6b18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke="#161615" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- tail -->
+    <path d="M68 130C41 109 20 106 8 115c14 15 24 30 24 46 16-5 31-3 49 0z" fill="#252a2d"/>
+    <path d="M68 153c-23 8-34 22-30 36 20-7 38-6 55-1z" fill="#191d1f"/>
+
+    <!-- fuse -->
+    <path d="M142 48c8-12 6-24 14-33" fill="none" stroke="#1a1b18" stroke-width="8"/>
+    <path d="M158 13c-2-8 4-11 8-6 1-7 9-7 10 0 7-1 8 7 2 10-4 3-11 3-14 1z" fill="url(#fuseGlow)" stroke="none"/>
+    <circle cx="164" cy="11" r="19" fill="url(#spark)" stroke="none"/>
+    <g fill="#ffe56c" stroke="none">
+      <path d="M162 0l3 8 7-4-4 8 8 2-8 2-1 8-4-7-6 5 3-8-8-3 9-1z"/>
+    </g>
+
+    <!-- body -->
+    <path d="M127 44c52 0 89 37 89 88 0 53-38 88-90 88-54 0-91-36-91-89 0-51 39-87 92-87Z" fill="url(#blackBody)"/>
+
+    <!-- belly -->
+    <path d="M77 161c16-15 39-19 60-10 22 9 37 25 37 40 0 18-25 27-55 26-31-1-53-13-53-30 0-10 3-18 11-26Z" fill="url(#blackBelly)" stroke="none" opacity=".9"/>
+
+    <!-- eye whites -->
+    <ellipse cx="93" cy="104" rx="29" ry="36" transform="rotate(-7 93 104)" fill="url(#eyeWhiteB)"/>
+    <ellipse cx="158" cy="102" rx="29" ry="36" transform="rotate(7 158 102)" fill="url(#eyeWhiteB)"/>
+    <ellipse cx="104" cy="110" rx="9.5" ry="14" transform="rotate(-7 104 110)" fill="#18120f" stroke="none"/>
+    <ellipse cx="148" cy="108" rx="9.5" ry="14" transform="rotate(7 148 108)" fill="#18120f" stroke="none"/>
+    <circle cx="107" cy="105" r="3.3" fill="#fffdf4" stroke="none"/>
+    <circle cx="151" cy="103" r="3.3" fill="#fffdf4" stroke="none"/>
+
+    <!-- brows with a little attitude -->
+    <path d="M55 70c20 1 41 10 57 22" fill="none" stroke="#111313" stroke-width="15"/>
+    <path d="M198 64c-19 3-41 12-58 25" fill="none" stroke="#111313" stroke-width="15"/>
+
+    <!-- beak -->
+    <path d="M117 128c18-5 45-1 60 9 8 6 7 11-2 14-14 5-40 8-57 3-7-2-8-8-6-15z" fill="url(#beakBlack)"/>
+    <path d="M117 151c16 4 36 11 48 20 6 5 4 10-3 13-13 5-32 2-44-5-7-4-7-10-8-18z" fill="#d77912"/>
+    <path d="M119 146c17 1 39 2 55 4" fill="none" stroke="#824309" stroke-width="3.5"/>
+    <ellipse cx="143" cy="138" rx="3.2" ry="2.1" fill="#824309" stroke="none"/>
+
+    <!-- feathered chest detail -->
+    <path d="M77 185c12 9 25 13 41 14" fill="none" stroke="#919796" stroke-width="3" opacity=".28"/>
+  </g>
+</svg>

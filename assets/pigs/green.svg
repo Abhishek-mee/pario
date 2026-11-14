@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <radialGradient id="pigGreen" cx=".34" cy=".25" r=".92">
+      <stop offset="0" stop-color="#c9ef6a"/>
+      <stop offset=".45" stop-color="#9bd844"/>
+      <stop offset=".82" stop-color="#74bc31"/>
+      <stop offset="1" stop-color="#5b9e26"/>
+    </radialGradient>
+    <linearGradient id="snoutGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bde85e"/>
+      <stop offset="1" stop-color="#86c83a"/>
+    </linearGradient>
+    <linearGradient id="pigBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3f79a" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#b2de56" stop-opacity=".15"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#2b2918" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- little feet -->
+    <path d="M74 201c-3 15 3 23 19 24 14 1 21-7 21-22z" fill="#76b833"/>
+    <path d="M166 201c3 15-3 23-19 24-14 1-21-7-21-22z" fill="#76b833"/>
+
+    <!-- ears -->
+    <path d="M65 81C44 57 49 34 72 43c15 6 25 17 29 29z" fill="#8ccb3d"/>
+    <path d="M175 81c21-24 16-47-7-38-15 6-25 17-29 29z" fill="#8ccb3d"/>
+    <path d="M67 74c-11-15-9-27 2-26 10 1 18 10 22 19z" fill="#5e9b27" stroke="none"/>
+    <path d="M173 74c11-15 9-27-2-26-10 1-18 10-22 19z" fill="#5e9b27" stroke="none"/>
+
+    <!-- body -->
+    <ellipse cx="120" cy="139" rx="91" ry="84" fill="url(#pigGreen)"/>
+
+    <!-- belly light -->
+    <ellipse cx="120" cy="168" rx="60" ry="42" fill="url(#pigBelly)" stroke="none"/>
+
+    <!-- forehead curls -->
+    <path d="M94 65c3-13 15-16 25-9 7-11 23-7 24 7" fill="none" stroke="#5b8f24" stroke-width="5" opacity=".55"/>
+
+    <!-- eyes -->
+    <ellipse cx="86" cy="111" rx="20" ry="22" fill="#fffdf2"/>
+    <ellipse cx="154" cy="111" rx="20" ry="22" fill="#fffdf2"/>
+    <ellipse cx="91" cy="114" rx="7.5" ry="10.5" fill="#242013" stroke="none"/>
+    <ellipse cx="149" cy="114" rx="7.5" ry="10.5" fill="#242013" stroke="none"/>
+    <circle cx="94" cy="110" r="2.8" fill="#fffdf4" stroke="none"/>
+    <circle cx="152" cy="110" r="2.8" fill="#fffdf4" stroke="none"/>
+
+    <!-- brows -->
+    <path d="M65 88c12-6 26-4 36 3" fill="none" stroke="#4d7620" stroke-width="5"/>
+    <path d="M175 88c-12-6-26-4-36 3" fill="none" stroke="#4d7620" stroke-width="5"/>
+
+    <!-- cheeks -->
+    <ellipse cx="54" cy="146" rx="15" ry="9" fill="#f18a6a" opacity=".4" stroke="none"/>
+    <ellipse cx="186" cy="146" rx="15" ry="9" fill="#f18a6a" opacity=".4" stroke="none"/>
+
+    <!-- snout -->
+    <ellipse cx="120" cy="148" rx="45" ry="31" fill="url(#snoutGreen)"/>
+    <ellipse cx="104" cy="148" rx="6" ry="8" fill="#557a21" stroke="none"/>
+    <ellipse cx="136" cy="148" rx="6" ry="8" fill="#557a21" stroke="none"/>
+    <path d="M107 163c8 5 18 5 26 0" fill="none" stroke="#557a21" stroke-width="4"/>
+
+    <!-- smile -->
+    <path d="M91 183c15 10 43 10 58-1" fill="none" stroke="#4b6d20" stroke-width="5"/>
+    <path d="M93 186c3 7 10 10 17 11" fill="none" stroke="#f6f4d9" stroke-width="4"/>
+
+    <!-- little warts -->
+    <circle cx="59" cy="119" r="4" fill="#6cae2e" stroke="none"/>
+    <circle cx="186" cy="123" r="3.5" fill="#6cae2e" stroke="none"/>
+  </g>
+</svg>
